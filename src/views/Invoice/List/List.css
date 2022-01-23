@@ -16,3 +16,6 @@ table, th, td {
 .Country {
     text-align: end;
 }
+button{
+    border: 0;
+}
