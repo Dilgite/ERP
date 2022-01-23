@@ -44,7 +44,7 @@ const List = () => {
                   type="button"
                   className="btn"
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  data-bs-target="#exampleModal2"
                   onClick={() => setId(pd)}
                 >
                   Edit
@@ -52,7 +52,7 @@ const List = () => {
 
                 <div
                   className="modal fade"
-                  id="exampleModal"
+                  id="exampleModal2"
                   aria-labelledby="exampleModalLabel"
                   aria-hidden="true"
                 >
