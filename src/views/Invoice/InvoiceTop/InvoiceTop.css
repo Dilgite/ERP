@@ -9,5 +9,6 @@ row{
 }
 
 input{
-    max-width: 80% !important;
+    width: 100%;
+    transition: width 0.25s;
 }

@@ -3,48 +3,47 @@ import "./SupplierDetails.css";
 
 const SupplierDetails = () => {
   return (
-    <div className="supplierDetails mt-5">
+    <div className="supplierDetails mt-3">
       <div className="row">
-        <div className="col-11">
+        <div className="col-lg-11 col-md-11 col-sm-11">
           <div className="row">
-            <div className="col-2">Supplier Name:</div>
-            <div className="col-2">SAM Trading</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Supplier Name:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">SAM Trading</div>
           </div>
           <div className="row">
-            <div className="col-2">Managing Director:</div>
-            <div className="col-4">Mahbubur Rahman</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Managing Director:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">Mahbubur Rahman</div>
           </div>
           <div className="row">
-            <div className="col-2">Mobile Number:</div>
-            <div className="col-4">01712321332</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Mobile Number:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">01712321332</div>
           </div>
           <div className="row">
-            <div className="col-2">Phone Number:</div>
-            <div className="col-4">+45890000000</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Phone Number:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">+45890000000</div>
           </div>
           <div className="row">
-            <div className="col-2">Fax Number:</div>
-            <div className="col-4">+0123472834812</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Fax Number:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">+0123472834812</div>
           </div>
           <div className="row">
-            <div className="col-2">Email:</div>
-            <div className="col-4">abc@xyz.com</div>
+            <div className="col-lg-2 col-md-5 col-sm-5">Email:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">abc@xyz.com</div>
           </div>
           <div className="row">
-            <div className="col-2">Address:</div>
-            <div className="col-4">
+            <div className="col-lg-2 col-md-5 col-sm-5">Address:</div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
               Cotton House(5th floor), House 2, Road 113/A
             </div>
           </div>
         </div>
-        <div className="col-1">
+        <div className="col-lg-1 col-md-1 col-sm-1 ">
           {" "}
           <button
             type="button"
             className="btn"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
-            
           >
             Edit
           </button>
@@ -71,18 +70,23 @@ const SupplierDetails = () => {
                 <div className="modal-body">
                   <form>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputEmail1" className="form-label">
+                      <label
+                        htmlFor="exampleInputEmail1"
+                        className="form-label"
+                      >
                         Supplier Name
                       </label>
                       <input
                         type="text"
                         className="form-control"
                         id="supplierName"
-                        
                       />
                     </div>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Managing Director
                       </label>
                       <input
@@ -92,7 +96,10 @@ const SupplierDetails = () => {
                       />
                     </div>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Mobile No
                       </label>
                       <input
@@ -102,7 +109,10 @@ const SupplierDetails = () => {
                       />
                     </div>
                     <div className="mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Phone No
                       </label>
                       <input
@@ -112,7 +122,10 @@ const SupplierDetails = () => {
                       />
                     </div>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Fax No
                       </label>
                       <input
@@ -122,7 +135,10 @@ const SupplierDetails = () => {
                       />
                     </div>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Email
                       </label>
                       <input
@@ -132,7 +148,10 @@ const SupplierDetails = () => {
                       />
                     </div>
                     <div className=" mb-3">
-                      <label htmlFor="exampleInputPassword1" className="form-label">
+                      <label
+                        htmlFor="exampleInputPassword1"
+                        className="form-label"
+                      >
                         Address
                       </label>
                       <input
@@ -141,7 +160,6 @@ const SupplierDetails = () => {
                         id="address"
                       />
                     </div>
-
 
                     <button type="submit" className="btn btn-primary">
                       Submit
