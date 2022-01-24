@@ -1,43 +1,43 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SupplierDetails.css";
 
 const SupplierDetails = () => {
   return (
     <div className="supplierDetails mt-3">
       <div className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11">
+        <div className="col-lg-11 col-md-12 col-sm-12">
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Supplier Name:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Supplier Name:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">SAM Trading</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Managing Director:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Managing Director:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">Mahbubur Rahman</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Mobile Number:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Mobile Number:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">01712321332</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Phone Number:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Phone Number:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">+45890000000</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Fax Number:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Fax Number:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">+0123472834812</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Email:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Email:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">abc@xyz.com</div>
           </div>
           <div className="row">
-            <div className="col-lg-2 col-md-5 col-sm-5">Address:</div>
+            <div className="col-lg-2 col-md-5 col-sm-5 fw-bold">Address:</div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               Cotton House(5th floor), House 2, Road 113/A
             </div>
           </div>
         </div>
-        <div className="col-lg-1 col-md-1 col-sm-1 ">
+        <div className=" col-sm-1 col-md-1 col-lg-1 ">
           {" "}
           <button
             type="button"

@@ -4,7 +4,7 @@ import Invoice from './views/Invoice/Invoice';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
     <Invoice />
       
     </div>

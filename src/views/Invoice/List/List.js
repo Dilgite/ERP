@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { orderList } from "../../../../src/dummyData/invoiceList";
+import Total from "../Total/Total";
 import "./List.css";
 
-var total = 0;
+
 
 const List = () => {
+  var total = 0;
   const calculate = (quantity, rate) => {
     total = total + quantity * rate;
     console.log(total);
@@ -144,6 +146,8 @@ const List = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };
