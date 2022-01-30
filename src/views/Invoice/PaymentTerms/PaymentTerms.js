@@ -3,8 +3,8 @@ import React from "react";
 const PaymentTerms = () => {
   return (
     <div className="row mt-5 mb-3">
-      <div className="col-lg-3 col-sm-12 col-md-6 ps-5 fw-bold">
-        Payment Terms <i className=" ms-5 fas fa-angle-down"></i>
+      <div className="col-lg-3 col-sm-12 col-md-6 ps-5 fw-bold d-flex align-items-center">
+        Payment Terms<i className="fas fa-chevron-down ms-2"></i>
       </div>
       <div className="col-lg-6 col-sm-12 col-md-6">
         <div className="row">

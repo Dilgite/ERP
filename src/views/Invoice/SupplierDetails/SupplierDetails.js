@@ -41,7 +41,6 @@ const SupplierDetails = () => {
           {" "}
           <button
             type="button"
-            className="btn"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >

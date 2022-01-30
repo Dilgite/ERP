@@ -11,7 +11,6 @@ const Invoice = () => {
     <>
       <InvoiceTop></InvoiceTop>
       <Supplier></Supplier>
-      <SupplierDetails></SupplierDetails>
       <List></List>
       <Total></Total>
       <PaymentTerms></PaymentTerms>

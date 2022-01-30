@@ -12,7 +12,10 @@ table, th, td {
 .Contact {
     text-align: end;
 }
-
+thead{
+    background-color: 
+    #E5E5E5;
+}
 .Country {
     text-align: end;
 }
@@ -22,6 +25,9 @@ button{
 
 .list{
     width: 50%;
+}
+.listModal{
+    width: 1024px;
 }
 
 @media (max-width: 600px) {
